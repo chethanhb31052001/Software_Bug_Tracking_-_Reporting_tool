@@ -1,7 +1,7 @@
-   .idea/
-   __pycache__/
-   *.pyc
-   venv/
-   .coverage
-   htmlcov/
-   .venv/
+.idea/
+__pycache__/
+*.pyc
+venv/
+.coverage
+htmlcov/
+.venv/
