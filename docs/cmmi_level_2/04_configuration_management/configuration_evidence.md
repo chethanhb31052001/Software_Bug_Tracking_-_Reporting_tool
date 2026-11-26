@@ -7,6 +7,8 @@ This document records the evidence supporting Configuration Management practices
 
 The evidence is based on the GitHub repository, branches, commits, pull requests, issues and project documentation.
 
+Only verified activities are recorded as completed. Proposed, ongoing and pending activities are identified separately.
+
 ## 2. Repository Information
 
 | Item | Details |
@@ -14,7 +16,7 @@ The evidence is based on the GitHub repository, branches, commits, pull requests
 | Project | Software Bug Tracking and Reporting Tool |
 | Version Control System | Git |
 | Repository Hosting | GitHub |
-| Repository | https://github.com/chethanhb31052001/Software_Bug_Tracking_-_Reporting_tool |
+| Repository | [Software Bug Tracking and Reporting Tool](https://github.com/chethanhb31052001/Software_Bug_Tracking_-_Reporting_tool) |
 | Main Development Branch | main |
 | Local Development Environment | PyCharm |
 | Programming Language | Python |
@@ -55,6 +57,8 @@ The branch list can be verified through the GitHub repository's Branches page.
 
 All required user-story branches should remain available after merging, in accordance with the assignment instructions.
 
+Branches associated with user stories should be linked to their relevant GitHub Issues.
+
 ## 5. Commit Management Evidence
 
 Git commit history records changes made to project files.
@@ -81,17 +85,20 @@ These commands help verify repository history, working-tree status and available
 
 Pull requests are used to review and integrate proposed changes.
 
-The following Sprint 1 pull requests provide evidence of repository and documentation activities:
+The following pull requests provide evidence of repository and documentation activities:
 
 | Pull Request | Activity | Status |
 |---|---|---|
 | PR #15 | Repository skeleton and test package structure | Merged |
 | PR #16 | CMMI evidence folder setup | Merged |
 | PR #18 | Requirements Management documentation | Merged |
+| PR #39 | CMMI Project Planning, Project Monitoring and Control, and Configuration Management documentation | Open – awaiting review |
 
-The pull request history provides evidence of proposed changes, file modifications and integration into the main branch.
+PR #39 contains six CMMI documentation files covering Project Planning (PP), Project Monitoring and Control (PMC), and Configuration Management (CM).
 
-Further pull request evidence will be added as Sprint 2 and Sprint 3 activities are completed.
+The pull request is intended for review before integration into the main branch.
+
+The pull request history provides evidence of proposed changes, file modifications and, where applicable, integration into the main branch.
 
 ## 7. Change Control Evidence
 
@@ -108,6 +115,8 @@ Examples of change-control records include:
 For example, Requirements Management documentation was submitted through PR #18 and merged into the main branch.
 
 The pull request included changes to requirements documentation and CMMI evidence.
+
+PR #39 provides a current example of the team's documentation change-control process. It remains open while the proposed changes are reviewed.
 
 ## 8. Repository Structure Verification
 
@@ -135,7 +144,7 @@ docs/
     └── 07_final_audit/
 ```
 
-The structure is checked using:
+The structure can be checked using:
 
 ```powershell
 tree docs\cmmi_level_2 /F
@@ -171,7 +180,7 @@ The team also reviews changes before committing and pushing them to the remote r
 | Sprint 1 | Initial repository structure and test package setup | PR #15 |
 | Sprint 1 | CMMI evidence folder setup | PR #16 |
 | Sprint 1 | Requirements Management documentation | PR #18 |
-| Sprint 2 | CMMI PP, PMC and CM documentation | Current documentation branch and subsequent pull request |
+| Sprint 2 | CMMI PP, PMC and CM documentation | Branch `cmmi-level-2-process-area-documentation`; PR #39 (open, awaiting review) |
 | Sprint 2 | Implementation and testing changes | To be updated with actual commits and pull requests |
 | Sprint 3 | Final integration and repository verification | To be updated during Sprint 3 |
 
@@ -179,11 +188,13 @@ The team also reviews changes before committing and pushing them to the remote r
 
 The repository and its history provide evidence of configuration management activities completed during Sprint 1.
 
-Sprint 2 documentation work is being prepared in the branch:
+During Sprint 2, the team prepared CMMI Project Planning, Project Monitoring and Control, and Configuration Management documentation in the branch:
 
 `cmmi-level-2-process-area-documentation`
 
-The CMMI documentation changes will be reviewed and submitted through a pull request after the PP, PMC and CM documents are completed.
+These six documentation files have been submitted through PR #39 for review before merging into the main branch.
+
+At the time of this evidence record, PR #39 is open and awaiting review. Its changes must not be treated as merged until the pull request is approved and merged.
 
 Further implementation, testing, review and integration records will be added as the project progresses.
 

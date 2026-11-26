@@ -105,18 +105,18 @@ The team monitors assigned issues through the GitHub Scrum Board and associated 
 
 ### 4.3 Current CMMI Documentation Work
 
-The following documentation has been prepared on the branch:
-
-`cmmi-level-2-process-area-documentation`
+The following CMMI Level 2 documentation has been prepared and included in Pull Request #39 for review.
 
 | Document | CMMI Area | Status |
 |---|---|---|
 | project_planning.md | Project Planning (PP) | Prepared |
 | planning_evidence.md | Project Planning (PP) | Prepared |
 | project_monitoring_and_control.md | Project Monitoring and Control (PMC) | Prepared |
-| monitoring_evidence.md | Project Monitoring and Control (PMC) | In preparation |
+| monitoring_evidence.md | Project Monitoring and Control (PMC) | Prepared |
+| configuration_management.md | Configuration Management (CM) | Prepared |
+| configuration_evidence.md | Configuration Management (CM) | Prepared |
 
-The documents are being reviewed together before the team creates a pull request.
+The six documents have been added to PR #39 for review before merging into the main branch.
 
 ### 4.4 Sprint 2 Burndown Monitoring
 
@@ -229,6 +229,7 @@ The following repository records support project monitoring:
 | Sprint 1 repository setup PR | PR #15 |
 | Sprint 1 CMMI folder setup PR | PR #16 |
 | Sprint 2 activity tracking | GitHub Issues #19–#38 |
+| Sprint 2 CMMI documentation PR | PR #39 (open, awaiting review) |
 
 Relevant links and screenshots should be added to the final evidence package.
 
