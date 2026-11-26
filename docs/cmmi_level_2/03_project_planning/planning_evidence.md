@@ -12,14 +12,14 @@ Evidence:
 
 ## 2. Requirements Planning
 
-The project requirements are documented in USER_REQUIREMENTS.md.
+The project requirements are documented in `USER_REQUIREMENTS.md`.
 
-The document contains 40 user stories (UR01–UR40), including their descriptions and acceptance criteria.
+The document contains 40 user stories (UR01–UR40), including their descriptions, acceptance criteria, owners and planned sprint allocations.
 
 Evidence:
-- USER_REQUIREMENTS.md
+- `USER_REQUIREMENTS.md`
 - GitHub Pull Request #18 – Requirements Management documentation.
-- GitHub commit e1ad907.
+- GitHub commit `e1ad907`.
 
 ## 3. Sprint Planning
 
@@ -27,21 +27,30 @@ The project is divided into three sprints.
 
 | Sprint | Planned Stories | Planned Story Points |
 |---|---:|---:|
-| Sprint 1 | 14 | 33 |
-| Sprint 2 | 13 | 32 |
-| Sprint 3 | 13 | 39 |
-| Total | 40 | 104 |
+| Sprint 1 | 14 | 34 |
+| Sprint 2 | 13 | 35 |
+| Sprint 3 | 13 | 40 |
+| **Total** | **40** | **109** |
 
 Evidence:
 - GitHub sprint milestones.
 - GitHub Scrum board.
 - Sprint planning records.
+- User story allocation in `USER_REQUIREMENTS.md`.
 
 ## 4. Team Responsibilities
 
 The four team members have been assigned user stories and additional coursework responsibilities.
 
-The user story allocation is maintained in USER_REQUIREMENTS.md.
+| Team Member | Sprint 1 Stories | Sprint 2 Stories | Sprint 3 Stories | Total Stories | Total Story Points |
+|---|---:|---:|---:|---:|---:|
+| Chethan | 3 | 3 | 3 | 9 | 26 |
+| Shashank | 3 | 3 | 3 | 9 | 24 |
+| Vaishnavi | 3 | 3 | 3 | 9 | 26 |
+| Kalyan | 5 | 4 | 4 | 13 | 33 |
+| **Total** | **14** | **13** | **13** | **40** | **109** |
+
+The user story allocation is maintained in `USER_REQUIREMENTS.md`.
 
 Evidence:
 - Requirements allocation table.
@@ -50,14 +59,31 @@ Evidence:
 
 ## 5. Planning Poker and Estimation
 
-Story-point estimates were recorded for the 40 user stories.
+The team used Planning Poker to estimate the effort and complexity of all 40 user stories.
 
-The available planning evidence contains individual recorded votes, but does not contain all four members' votes for every story.
+The team agreed to use a 1–4 story-point scale:
 
-Therefore, the recorded estimates should be treated as provisional until the missing voting evidence is resolved.
+| Story Points | Meaning |
+|---|---|
+| 1 | Very simple |
+| 2 | Simple |
+| 3 | Moderate |
+| 4 | Complex or highly important |
+
+All four team members confirmed their votes for each user story. The agreed estimates are recorded in the Sprint Planning Evidence table.
+
+The resulting estimates are:
+
+- Sprint 1: 34 story points.
+- Sprint 2: 35 story points.
+- Sprint 3: 40 story points.
+- Overall: 109 story points.
 
 Evidence:
-- Sprint planning and Planning Poker records.
+- Completed Sprint Planning Evidence table.
+- Individual member votes.
+- Agreed story-point estimates.
+- User story allocation records.
 
 ## 6. Project Resources
 
@@ -65,25 +91,39 @@ The project uses Python, PyCharm, GitHub, GitHub Projects, Python testing tools 
 
 Evidence:
 - Project repository.
-- README.md.
+- `README.md`.
 - Source code and test directories.
+- Development environment.
 
 ## 7. Project Risks
 
 The team identified risks relating to workload distribution, requirements understanding, implementation delays, insufficient testing, integration and missing assessment evidence.
 
-Mitigation activities are described in project_planning.md.
+Mitigation activities are described in `project_planning.md`.
 
-## 8. Evidence Limitations
+Evidence:
+- Project risk and mitigation table.
+- Sprint planning records.
+- GitHub issue and project board status.
 
-This document records the planning evidence currently available.
+## 8. Outstanding Planning Evidence
 
-Additional evidence, including complete Planning Poker records, detailed estimates, PERT calculations and supporting sprint records, must be linked as it becomes available.
+The following planning activities require supporting records as they are completed:
+
+- PERT network diagram and critical path calculations.
+- COCOMO I estimation.
+- COCOMO II estimation.
+- Earned Value Management calculations.
+- Sprint burndown charts.
+- Sprint velocity calculations.
+- Updated sprint progress and review records.
 
 Planned activities must not be treated as completed work without supporting evidence.
 
 ## 9. Review Status
 
-Project Planning documentation has been prepared.
+Project Planning documentation and the confirmed Planning Poker evidence have been prepared.
 
-Supporting evidence will be updated as the project progresses through Sprint 2 and Sprint 3.
+The project plan and supporting evidence will be reviewed and updated as the project progresses through Sprint 2 and Sprint 3.
+
+Actual implementation progress, testing results and completed project activities will be recorded separately and supported by appropriate evidence.
