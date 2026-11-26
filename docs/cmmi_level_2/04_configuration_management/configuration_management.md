@@ -21,6 +21,7 @@ The main objectives are:
 - Review code and documentation before merging into the main branch.
 - Maintain a history of project development.
 - Support configuration audits using GitHub records.
+- Retain project branches in accordance with the assignment requirements.
 
 ## 3. Configuration Identification
 
@@ -39,6 +40,7 @@ The following items are treated as configuration items:
 | GitHub repository | Central location for project artefacts |
 | Git branches | Separate development and documentation work |
 | Pull requests | Records of proposed and reviewed changes |
+| GitHub Issues | Records of assigned tasks, requirements and changes |
 
 Configuration items are maintained in the project GitHub repository.
 
@@ -48,9 +50,9 @@ The project uses GitHub as its central version control platform.
 
 Repository:
 
-`https://github.com/chethanhb31052001/Software_Bug_Tracking_-_Reporting_tool`
+[Software Bug Tracking and Reporting Tool](https://github.com/chethanhb31052001/Software_Bug_Tracking_-_Reporting_tool)
 
-The repository contains the application source code, test packages, documentation and project evidence.
+The repository contains application source code, test packages, documentation and project evidence.
 
 The team uses a structured directory layout to organise files and make project artefacts easier to locate.
 
@@ -83,10 +85,12 @@ The team follows these branch-management practices:
 3. Commit changes with meaningful commit messages.
 4. Push the branch to the remote GitHub repository.
 5. Submit a pull request for review.
-6. Merge approved changes into the main branch.
-7. Retain project branches in accordance with the assignment requirements.
+6. Merge approved changes into the appropriate target branch.
+7. Retain project branches after merging, in accordance with the assignment requirements.
 
 Branches associated with user stories must be linked to their relevant GitHub Issues.
+
+Branch and issue associations should be checked during configuration verification.
 
 Project branches should not be deleted after merging because the assignment requires branches to be retained.
 
@@ -128,6 +132,7 @@ The team follows this process:
 6. Review the proposed changes.
 7. Address any review comments.
 8. Merge the approved changes into the target branch.
+9. Retain the branch and associated records.
 
 Changes to requirements, user stories or sprint allocations should also be reflected in the relevant project documentation and tracking records.
 
@@ -156,6 +161,10 @@ A pull request should include:
 
 Changes should be merged only after the required review and checks have been completed.
 
+An open pull request represents proposed changes awaiting review. It must not be described as merged or integrated until GitHub confirms that the merge has taken place.
+
+For example, PR #39, titled **Add CMMI Level 2 PP, PMC and CM Documentation**, contains the six Project Planning, Project Monitoring and Control, and Configuration Management documents. Its status must be checked on GitHub before recording its final integration status.
+
 ## 9. Configuration Status Accounting
 
 Configuration status accounting records the current state and history of controlled project artefacts.
@@ -174,6 +183,15 @@ These records help identify which changes have been made, which work products ha
 
 Configuration status is reviewed during sprint reviews and project documentation checks.
 
+The status of each change should distinguish between:
+
+- Planned.
+- In progress.
+- Awaiting review.
+- Approved.
+- Merged.
+- Verified.
+
 ## 10. Configuration Verification and Audit
 
 Configuration verification checks whether controlled project artefacts are maintained correctly and whether changes are traceable.
@@ -185,9 +203,11 @@ The team reviews:
 - Whether user-story branches are associated with their issues.
 - Whether changes have corresponding commits.
 - Whether pull requests describe the changes.
+- Whether pull requests have been reviewed and approved.
 - Whether merged changes are present in the target branch.
 - Whether required project branches are retained.
 - Whether documentation reflects the current project state.
+- Whether the local working tree and remote branch are synchronised when changes are submitted.
 
 GitHub history and repository contents provide supporting evidence for these checks.
 
@@ -219,6 +239,7 @@ Responsibilities include:
 - Reviewing proposed changes where required.
 - Resolving merge conflicts.
 - Ensuring that project documentation and tests are updated when necessary.
+- Retaining branches in accordance with the assignment requirements.
 
 The team collectively reviews significant changes and maintains the shared repository.
 
@@ -236,6 +257,17 @@ Configuration Management is supported by the following records:
 - Test files and execution evidence.
 - Sprint milestones and project activity.
 
+Examples of repository evidence include:
+
+| Evidence | Reference | Status |
+|---|---|---|
+| Repository setup and initial structure | PR #15 | Merged |
+| CMMI evidence folder setup | PR #16 | Merged |
+| Requirements Management documentation | PR #18 | Merged |
+| Project Planning, PMC and CM documentation | PR #39 | Open – awaiting review |
+
+The status of each pull request must be checked against GitHub before it is reported as merged.
+
 These records provide evidence of configuration identification, change control, version management and configuration verification.
 
 ## 14. Evidence Limitations and Status
@@ -245,6 +277,8 @@ Configuration Management is an ongoing activity throughout the project.
 Repository setup and initial test package structure were completed during Sprint 1.
 
 Further configuration activities continue during Sprint 2, including implementation, documentation and pull request management.
+
+PR #39 contains the Project Planning, Project Monitoring and Control, and Configuration Management documentation. It remains open and awaiting review, so the proposed changes must not yet be described as merged into the main branch.
 
 Sprint 3 will include continued integration, testing and final repository verification.
 

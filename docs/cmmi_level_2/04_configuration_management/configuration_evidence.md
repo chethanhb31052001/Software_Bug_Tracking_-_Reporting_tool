@@ -17,7 +17,7 @@ Only verified activities are recorded as completed. Proposed, ongoing and pendin
 | Version Control System | Git |
 | Repository Hosting | GitHub |
 | Repository | [Software Bug Tracking and Reporting Tool](https://github.com/chethanhb31052001/Software_Bug_Tracking_-_Reporting_tool) |
-| Main Development Branch | main |
+| Main Development Branch | `main` |
 | Local Development Environment | PyCharm |
 | Programming Language | Python |
 
@@ -43,7 +43,7 @@ These items are maintained under Git version control.
 
 The team uses branches to separate development and documentation activities.
 
-Examples of branches include:
+Examples of project branches include:
 
 | Branch | Purpose |
 |---|---|
@@ -51,13 +51,13 @@ Examples of branches include:
 | `S1-10` | Sprint 1 repository setup activity |
 | `cmmi-level-2-process-area-documentation` | CMMI documentation work |
 
-Additional branches are maintained for individual user-story implementation and testing activities.
+The existence and current status of branches can be verified through the GitHub repository's Branches page or by using Git commands.
 
-The branch list can be verified through the GitHub repository's Branches page.
+Additional branches are maintained for individual user-story implementation and testing activities where required.
+
+The branch list should be reviewed to confirm that the required user-story branches exist and are associated with their relevant GitHub Issues.
 
 All required user-story branches should remain available after merging, in accordance with the assignment instructions.
-
-Branches associated with user stories should be linked to their relevant GitHub Issues.
 
 ## 5. Commit Management Evidence
 
@@ -79,7 +79,9 @@ git status
 git branch -a
 ```
 
-These commands help verify repository history, working-tree status and available branches.
+These commands help verify repository history, working-tree status and available local and remote branches.
+
+Commit history provides traceability for modifications made by individual contributors.
 
 ## 6. Pull Request Evidence
 
@@ -99,6 +101,8 @@ PR #39 contains six CMMI documentation files covering Project Planning (PP), Pro
 The pull request is intended for review before integration into the main branch.
 
 The pull request history provides evidence of proposed changes, file modifications and, where applicable, integration into the main branch.
+
+An open pull request demonstrates that changes have been submitted for review. It does not demonstrate that those changes have already been merged.
 
 ## 7. Change Control Evidence
 
@@ -152,6 +156,8 @@ tree docs\cmmi_level_2 /F
 
 This helps verify that the CMMI documents are stored in their intended locations.
 
+The repository structure should be checked against the actual files before the final evidence package is submitted.
+
 ## 9. Configuration Verification Activities
 
 The team checks configuration integrity by reviewing:
@@ -173,6 +179,8 @@ git status
 
 The team also reviews changes before committing and pushing them to the remote repository.
 
+Configuration verification should confirm that approved changes are present in the correct target branch and that the relevant branches and records are retained.
+
 ## 10. Sprint-wise Configuration Management Evidence
 
 | Sprint | Configuration Activities | Evidence |
@@ -183,6 +191,8 @@ The team also reviews changes before committing and pushing them to the remote r
 | Sprint 2 | CMMI PP, PMC and CM documentation | Branch `cmmi-level-2-process-area-documentation`; PR #39 (open, awaiting review) |
 | Sprint 2 | Implementation and testing changes | To be updated with actual commits and pull requests |
 | Sprint 3 | Final integration and repository verification | To be updated during Sprint 3 |
+
+The table records completed repository activities and identifies further evidence that must be added as development continues.
 
 ## 11. Evidence Limitations and Status
 
