@@ -72,7 +72,7 @@ Main activities included:
 - Reviewing the coursework brief and assessment requirements.
 - Preparing functional and non-functional requirements.
 - Creating user stories and acceptance criteria.
-- Initial Planning Poker and story-point recording.
+- Planning Poker and story-point estimation.
 - Establishing the GitHub repository and Scrum board.
 - Preparing the initial CMMI documentation structure.
 - Preparing Requirements Management documentation.
@@ -113,7 +113,7 @@ The exact Sprint 3 dates and detailed schedule must be taken from the approved G
 The project contains 40 user stories allocated across three sprints.
 
 | Team Member | Sprint 1 | Sprint 2 | Sprint 3 | Total |
-|---|---|---|---|---:|
+|---|---:|---:|---:|---:|
 | Chethan | 3 | 3 | 3 | 9 |
 | Shashank | 3 | 3 | 3 | 9 |
 | Vaishnavi | 3 | 3 | 3 | 9 |
@@ -122,24 +122,43 @@ The project contains 40 user stories allocated across three sprints.
 
 The allocation is documented in `USER_REQUIREMENTS.md`.
 
-The team should review workload distribution to address differences in the number and estimated complexity of allocated stories.
+The team should review workload distribution to address differences in the number and estimated complexity of allocated stories. Kalyan has 13 allocated stories, while each of the other members has 9.
 
 ## 7. Estimation and Planning Poker
 
-The team uses Planning Poker to estimate the relative effort of user stories.
+The team used Planning Poker to estimate the relative effort and complexity of the 40 user stories.
 
-Story-point estimates are recorded in the sprint planning evidence.
+A 1–4 story-point scale was agreed by the team:
 
-The currently recorded estimates total:
+| Story Points | Estimation Meaning |
+|---|---|
+| 1 | Very simple task |
+| 2 | Simple task |
+| 3 | Moderate task |
+| 4 | Complex or highly important task |
 
-| Sprint | Planned Story Points |
-|---|---:|
-| Sprint 1 | 33 |
-| Sprint 2 | 32 |
-| Sprint 3 | 39 |
-| **Total** | **104** |
+All four team members confirmed their votes, and the agreed estimates were recorded in the Sprint Planning Evidence.
 
-These figures represent the current recorded estimates. The available planning record does not contain all four members' votes for every story. Therefore, the estimates should not be described as fully validated unanimous Planning Poker results until the missing voting evidence is completed or clarified.
+### Sprint Story-Point Estimates
+
+| Sprint | User Stories | Planned Story Points |
+|---|---:|---:|
+| Sprint 1 | 14 | 34 |
+| Sprint 2 | 13 | 35 |
+| Sprint 3 | 13 | 40 |
+| **Total** | **40** | **109** |
+
+### Individual Story-Point Allocation
+
+| Team Member | Total User Stories | Total Story Points |
+|---|---:|---:|
+| Chethan | 9 | 26 |
+| Shashank | 9 | 24 |
+| Vaishnavi | 9 | 26 |
+| Kalyan | 13 | 33 |
+| **Total** | **40** | **109** |
+
+The estimates are used for sprint planning, workload assessment and progress monitoring. Actual completed story points will be recorded separately when user stories satisfy their acceptance criteria.
 
 ## 8. Project Resources
 
@@ -191,7 +210,7 @@ The following records support Project Planning:
 - `USER_REQUIREMENTS.md`
 - Requirements Management documentation.
 - Sprint planning and user story allocation.
-- Planning Poker evidence.
+- Confirmed Planning Poker evidence.
 - GitHub milestones and project board.
 - GitHub issues and pull requests.
 - PERT and critical path calculations.
@@ -199,10 +218,12 @@ The following records support Project Planning:
 - Sprint burndown and velocity records.
 - Team meeting minutes.
 
+Planned activities and outstanding records must be distinguished from completed activities. Supporting evidence should be maintained as each project activity is completed.
+
 ## 12. Conclusion
 
 Project Planning establishes the scope, activities, responsibilities, estimates, resources and risks for the Software Bug Tracking and Reporting Tool project.
 
-The project uses three development sprints and GitHub-based planning and tracking.
+The project uses three development sprints and GitHub-based planning and tracking. The team confirmed 109 story points across 40 user stories using the agreed 1–4 estimation scale.
 
 The project plan must be reviewed and updated when approved changes occur. Actual progress and completion must be supported by project records rather than assumed from planned activities.
