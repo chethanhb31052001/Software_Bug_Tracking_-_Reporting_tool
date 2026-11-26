@@ -30,18 +30,20 @@ The team reviews progress regularly to ensure that planned activities remain ali
 
 Each sprint has a defined set of activities, assigned responsibilities and planned user stories.
 
+The confirmed sprint allocation and story point totals are:
+
 | Sprint | Period | Planned User Stories | Planned Story Points |
 |---|---|---:|---:|
-| Sprint 1 | 2–23 November 2026 | 14 | 33 |
-| Sprint 2 | 24 November–14 December 2026 | 13 | 32 |
-| Sprint 3 | As scheduled by the team | 13 | 39 |
-| Total | Three sprints | 40 | 104 |
+| Sprint 1 | 2–23 November 2026 | 14 | 34 |
+| Sprint 2 | 24 November–14 December 2026 | 13 | 35 |
+| Sprint 3 | As scheduled by the team | 13 | 40 |
+| **Total** | **Three sprints** | **40** | **109** |
 
 Sprint progress is monitored through GitHub milestones and the Scrum Board.
 
 Tasks are moved through the relevant workflow stages as work progresses. A task is marked complete only after its implementation or documentation work has been completed and the required evidence is available.
 
-Sprint 1 was completed with all 14 milestone issues closed.
+Sprint 1 was completed with all 14 milestone issues closed. These milestone issues represent Sprint 1 project-management activities and should not, by themselves, be treated as proof that all 14 planned software user stories were implemented and tested.
 
 Sprint 2 is currently in progress. Its implementation, testing and documentation activities are monitored through their assigned GitHub issues.
 
@@ -105,13 +107,13 @@ The following information is used:
 - Sprint timeline.
 - Changes to the sprint backlog, where applicable.
 
-The planned story point totals are:
+The confirmed initial story point totals are:
 
 | Sprint | Initial Story Points |
 |---|---:|
-| Sprint 1 | 33 |
-| Sprint 2 | 32 |
-| Sprint 3 | 39 |
+| Sprint 1 | 34 |
+| Sprint 2 | 35 |
+| Sprint 3 | 40 |
 
 Sprint 1 burndown evidence was not recorded daily. Any retrospective reconstruction must therefore be clearly identified and based on available GitHub activity records. Missing historical daily values must not be presented as actual recorded measurements.
 
@@ -132,10 +134,10 @@ Planned story points are not treated as completed story points.
 The team records the final completed story points at the end of each sprint and compares them with the original estimates.
 
 | Sprint | Planned Story Points | Completed Story Points | Actual Velocity |
-|---|---:|---:|---|
-| Sprint 1 | 33 | To be verified | To be calculated |
-| Sprint 2 | 32 | Pending | Pending |
-| Sprint 3 | 39 | Pending | Pending |
+|---|---:|---|---|
+| Sprint 1 | 34 | To be verified | To be calculated |
+| Sprint 2 | 35 | Pending | Pending |
+| Sprint 3 | 40 | Pending | Pending |
 
 Sprint 1 velocity will be calculated using verified completion evidence. Sprint 2 and Sprint 3 velocity will be updated after their respective reviews.
 
@@ -255,6 +257,8 @@ Evidence is maintained in the project repository and updated as the project prog
 Project Monitoring and Control is an ongoing activity throughout the three sprints.
 
 Sprint 1 has been completed, with all 14 milestone issues closed. However, daily Sprint 1 burndown records were not maintained, and its historical progress must be reconstructed only where reliable evidence is available.
+
+Sprint 1 actual velocity remains subject to verification against completed user-story implementation and acceptance evidence.
 
 Sprint 2 is currently in progress. Burndown, velocity, implementation and testing evidence will be updated as work is completed.
 
