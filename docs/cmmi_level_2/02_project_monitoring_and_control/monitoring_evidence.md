@@ -15,11 +15,12 @@ The project is organised into three sprints.
 
 | Sprint | Period | Planned User Stories | Planned Story Points | Monitoring Status |
 |---|---|---:|---:|---|
-| Sprint 1 | 2–23 November 2026 | 14 | 33 | Completed |
-| Sprint 2 | 24 November–14 December 2026 | 13 | 32 | In progress |
-| Sprint 3 | As scheduled by the team | 13 | 39 | Pending |
+| Sprint 1 | 2–23 November 2026 | 14 | 34 | Completed |
+| Sprint 2 | 24 November–14 December 2026 | 13 | 35 | In progress |
+| Sprint 3 | As scheduled by the team | 13 | 40 | Pending |
+| **Total** | | **40** | **109** | |
 
-The planned totals are based on the current user-story allocation and estimates.
+The planned totals are based on the team's confirmed user-story allocations and Planning Poker estimates.
 
 ## 3. Sprint 1 Monitoring Evidence
 
@@ -31,12 +32,12 @@ Available GitHub milestone information:
 
 - Sprint: Sprint 1
 - Planned period: 2–23 November 2026
-- Total issues: 14
+- Total milestone issues: 14
 - Closed issues: 14
 - Open issues: 0
-- Completion: 100%
+- Milestone issue completion: 100%
 
-This demonstrates that the Sprint 1 project activities recorded in the milestone were completed.
+The 14 closed issues represent Sprint 1 project-management activities (S1-01 to S1-14). Their closure demonstrates completion of the recorded milestone activities but does not independently prove that all 14 planned software user stories were implemented and accepted.
 
 ### 3.2 GitHub Monitoring Records
 
@@ -63,15 +64,15 @@ If a retrospective chart is prepared, it must be based on available dated GitHub
 
 ### 3.4 Sprint 1 Velocity
 
-The planned Sprint 1 workload was 33 story points.
+The planned Sprint 1 workload was 34 story points.
 
-Actual velocity must be calculated from the story points of completed user stories, using verified implementation and completion records.
+Actual velocity must be calculated from the story points of completed software user stories, using verified implementation and completion records.
 
-The closure of 14 project-management milestone issues does not by itself prove that 33 software user-story points were completed.
+The closure of 14 project-management milestone issues does not by itself prove that 34 software user-story points were completed.
 
 | Measure | Value |
 |---|---|
-| Planned story points | 33 |
+| Planned story points | 34 |
 | Verified completed user-story points | Pending verification |
 | Actual velocity | Pending calculation |
 
@@ -82,8 +83,10 @@ The closure of 14 project-management milestone issues does not by itself prove t
 - Sprint: Sprint 2
 - Period: 24 November–14 December 2026
 - Planned user stories: 13
-- Planned story points: 32
+- Planned story points: 35
 - Status: In progress
+
+The Sprint 2 plan contains 13 user stories with a total estimated effort of 35 story points.
 
 ### 4.2 GitHub Issue Monitoring
 
@@ -109,26 +112,28 @@ The following CMMI Level 2 documentation has been prepared and included in Pull 
 
 | Document | CMMI Area | Status |
 |---|---|---|
-| project_planning.md | Project Planning (PP) | Prepared |
-| planning_evidence.md | Project Planning (PP) | Prepared |
-| project_monitoring_and_control.md | Project Monitoring and Control (PMC) | Prepared |
-| monitoring_evidence.md | Project Monitoring and Control (PMC) | Prepared |
-| configuration_management.md | Configuration Management (CM) | Prepared |
-| configuration_evidence.md | Configuration Management (CM) | Prepared |
+| project_planning.md | Project Planning (PP) | Prepared – in PR review |
+| planning_evidence.md | Project Planning (PP) | Prepared – in PR review |
+| project_monitoring_and_control.md | Project Monitoring and Control (PMC) | Prepared – in PR review |
+| monitoring_evidence.md | Project Monitoring and Control (PMC) | Prepared – in PR review |
+| configuration_management.md | Configuration Management (CM) | Prepared – in PR review |
+| configuration_evidence.md | Configuration Management (CM) | Prepared – in PR review |
 
-The six documents have been added to PR #39 for review before merging into the main branch.
+The six documents have been added to PR #39, titled **Add CMMI Level 2 PP, PMC and CM Documentation**.
+
+PR #39 is open and awaiting review. The documents must not be described as merged into the main branch until the pull request has been approved and merged.
 
 ### 4.4 Sprint 2 Burndown Monitoring
 
-The initial planned Sprint 2 workload is 32 story points.
+The initial planned Sprint 2 workload is 35 story points.
 
-Remaining story points should be recorded regularly during the sprint.
+Remaining story points should be recorded regularly during the sprint using actual completed and accepted user-story progress.
 
-The following table is intended for actual daily records:
+The following table is intended for actual daily records. Values must be updated from verified sprint activity.
 
 | Date | Initial Story Points | Completed Story Points | Remaining Story Points | Notes |
 |---|---:|---:|---:|---|
-| 24 November 2026 | 32 | To be recorded | To be recorded | Sprint start |
+| 24 November 2026 | 35 | To be recorded | To be recorded | Sprint start |
 | Subsequent dates | | | | Update using actual progress |
 | 14 December 2026 | | | | Sprint review |
 
@@ -136,17 +141,17 @@ The remaining story points are calculated as:
 
 **Remaining Story Points = Initial Sprint Story Points − Completed Story Points**
 
-Any scope changes must be recorded separately.
+Any approved scope changes must be recorded separately and reflected in the burndown calculations.
 
 ### 4.5 Sprint 2 Velocity
 
-Sprint 2 planned workload is 32 story points.
+Sprint 2 planned workload is 35 story points.
 
-Actual velocity will be calculated at the end of the sprint using completed user-story estimates.
+Actual velocity will be calculated at the end of the sprint using the estimates of completed and accepted user stories.
 
 | Measure | Value |
 |---|---|
-| Planned story points | 32 |
+| Planned story points | 35 |
 | Completed story points | Pending |
 | Actual velocity | Pending |
 
@@ -164,7 +169,7 @@ Implementation progress is monitored through:
 
 Each member is responsible for implementing their allocated user stories and providing relevant implementation evidence.
 
-A story is treated as complete only when its implementation has been checked against the acceptance criteria.
+A story is treated as complete only when its implementation has been checked against the acceptance criteria and the required evidence is available.
 
 ## 6. Testing Monitoring
 
@@ -182,7 +187,7 @@ The team is required to demonstrate:
 
 The assignment targets at least 85% test pass rate and 85% average code coverage for the relevant assessment criteria.
 
-Actual results must be taken from test execution and coverage reports.
+Actual results must be taken from test execution and coverage reports. Planned tests must not be reported as completed tests.
 
 ## 7. Risk and Corrective Action Records
 
@@ -238,10 +243,12 @@ Relevant links and screenshots should be added to the final evidence package.
 The following limitations are acknowledged:
 
 1. Daily Sprint 1 burndown records were not maintained.
-2. Sprint 1 actual velocity requires verification against completed software user stories.
+2. Sprint 1 actual velocity requires verification against completed and accepted software user stories.
 3. Sprint 2 is ongoing, so its final velocity and completion figures are not yet available.
-4. Sprint 3 monitoring evidence will be added during the final sprint.
-5. Implementation and testing completion must be supported by actual commits, pull requests, test results and coverage reports.
+4. Sprint 2 daily burndown values must be based on actual recorded progress.
+5. Sprint 3 monitoring evidence will be added during the final sprint.
+6. Implementation and testing completion must be supported by actual commits, pull requests, test results and coverage reports.
+7. PR #39 is still open, so its documentation has not yet been merged into the main branch.
 
 These limitations are recorded to ensure that project monitoring evidence accurately represents the work performed.
 
@@ -249,6 +256,8 @@ These limitations are recorded to ensure that project monitoring evidence accura
 
 The project uses GitHub Issues, milestones, the Scrum Board, commits, pull requests, burndown tracking, velocity calculations and testing records to monitor progress.
 
-Sprint 1 completion is supported by its closed milestone and associated GitHub records. Sprint 2 monitoring is ongoing, and Sprint 3 evidence will be added as development progresses.
+Sprint 1 milestone completion is supported by its closed milestone and associated GitHub records. However, the milestone closure does not independently establish the completion of all planned software user stories or the actual Sprint 1 velocity.
 
-This evidence supports the CMMI Level 2 Project Monitoring and Control process area by demonstrating the team's approach to monitoring project progress, identifying issues and managing corrective actions.
+Sprint 2 monitoring is ongoing. Its planned workload is 35 story points, and its burndown and velocity records will be updated using verified progress. Sprint 3 evidence will be added as development progresses.
+
+This evidence supports the CMMI Level 2 Project Monitoring and Control process area by documenting the team's approach to monitoring project progress, identifying issues and managing corrective actions.
